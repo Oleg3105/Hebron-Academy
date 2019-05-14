@@ -1,0 +1,196 @@
+.seven-section {
+    background: url('../assets/images/backAb.jpg') no-repeat center / cover;
+    height: 700px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.seven-title h1 {
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 2.75px;
+    color: white;
+}
+
+.seven-title {
+    text-align: center;
+    justify-content: center;
+}
+
+.eight-content, .nine-content, .ten-content {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.eight-text, .eight-text2 {
+    margin-top: 60px;
+    padding: 0 20px;
+}
+
+.eight-text2 {
+    margin-top: 20px;
+}
+
+.eight-text p, .eight-text2 p, .ten-text p {
+    font-size: 22px;
+    line-height: 1.33;
+    letter-spacing: .7px;
+}
+
+.ten-text p {
+    display: flex;
+    justify-content: center;
+    white-space: pre-line;
+    margin: 0 auto;
+}
+
+.ten-text p {
+    font-family: "Raleway", sans-serif;
+    margin-right: 50px;
+}
+
+.eight-photo img, .eight-photo2 img {
+    width: 100%;
+}
+
+.ten-photo {
+    display: flex;
+    flex-direction: column;
+}
+
+.ten-photo-box {
+    display: flex;
+}
+
+.photo-box-10 {
+    width: 185px;
+    height: 185px;
+    margin: 10px;
+    background-image: linear-gradient(45deg, #f3af3c, #e2771c);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.photo-box-10 p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.all-arws {
+    display: flex;
+    justify-content: center;
+}
+
+.arw {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.dots {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dot1, .dot2, .dot3, .dot4 {
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: black;
+}
+
+.eleven-title {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.eleven-title h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.eleven-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eleven-line img {
+    width: 60px;
+    height: 3px;
+}
+
+.all-team {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.eleven-team {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.team-content {
+    width: 337px;
+    height: 150px;
+}
+
+.team-photo img {
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+
+.team-photo {
+    display: flex;
+}
+
+.team-inf {
+    margin: 5px;
+}
+
+.team-inf h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.team-inf p {
+    width: 140px;
+    font-size: 17px;
+    color: rgb(77, 86, 86);
+}
+
+.team-inf img {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.arwR, .arwL {
+    cursor: pointer;
+}
+
+.eleven-slider {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 0 auto;
+}

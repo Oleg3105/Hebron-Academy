@@ -1,0 +1,70 @@
+body, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+}
+.photo {
+    width: 50vw;
+}
+.nameText {
+    font: 36px Raleway-SemiBold, sans-serif;
+    color: #5c5b5b;
+}
+.aboutText {
+    font: 18px Raleway-Light, sans-serif;
+    color: #ff7802;
+    margin: 35px 0;
+}
+.textBlog {
+    font: 20px Raleway-Regular, sans-serif;
+    color: #5c5b5b;
+    margin-bottom: 30px;
+}
+.phoneNumber {
+    color: #ff7802;
+}
+.textEnd {
+    font: 22px Raleway-SemiBold, sans-serif;
+    color: #5c5b5b;
+    margin-bottom: 30px;
+}
+button {
+    padding: 10px 40px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 9.5px 0.5px rgba(1, 1, 1, 0.21);
+    border: 0;
+    background-color: #ff7802;
+    font: 30px Raleway-Regular, sans-serif;
+    color: #ffffff;
+}
+.forIcons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 100px;
+    height: 20vh;
+    justify-content: space-between;
+}
+.share {
+    font: 22px Raleway-Light, sans-serif;
+    color: #ff7802;
+
+}

@@ -1,0 +1,144 @@
+body, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.helpWords {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto 80px;
+}
+.blog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.words {
+    font: 20px Raleway-Light, sans-serif;
+    color: #5c5b5b;
+    transition: 0.5s ease;
+}
+.words:hover {
+    text-decoration: underline;
+    color: #ff7802;
+}
+.forContent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.forImgText>.forContent {
+    margin: 0;
+}
+.forImgText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+.nameText {
+    font: 36px Raleway-SemiBold, sans-serif;
+    color: #5c5b5b;
+}
+.aboutText {
+    font: 18px Raleway-Light, sans-serif;
+    color: #ff7802;
+    margin: 35px 0;
+}
+.textBlog {
+    font: 20px Raleway-Regular, sans-serif;
+    color: #5c5b5b;
+}
+.forMore {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.more {
+    font: 18px Raleway-Bold, sans-serif;
+    color: #ff7802;
+    margin-right: 10px;
+}
+.forIcons {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.forIcons>.more {
+    font: Raleway-Regular, sans-serif;
+    margin-right: 10px;
+}
+.icon {
+    margin-left: 10px;
+}
+.blog>.blog {
+    position: relative;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 20px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    border-radius: 4px;
+    border: solid 1px #ebebeb;
+}
+.boxText{
+    text-align: center;
+    margin: 50px 0;
+    font: 18px Raleway-SemiBold, sans-serif;
+    color: rgba(18, 20, 15, 0.7);
+}
+button, input {
+    padding: 18px 50px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 9.5px 0.5px rgba(1, 1, 1, 0.21);
+    border: 0;
+    background-color: #ff7802;
+    font: 20px Raleway-Regular, sans-serif;
+    color: #ffffff;
+}
+#hidden {
+    background-blend-mode: overlay;
+    background-color: #000000d9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.forAnket {
+    margin: 20px 0;
+}
+input {
+    background: white;
+    color: black;
+    font-size: 25px;
+    width: 20%;
+}
+.textHidden {
+    color: #ff7802;
+    font: 55px Raleway-SemiBold, sans-serif;
+}
+#delete {
+    width: 50px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}

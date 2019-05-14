@@ -1,0 +1,204 @@
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.socialProject {
+    background: url(../assets/images/background.png);
+    background-size: cover;
+    background-position: right;
+}
+.socialProject .quadrate {
+    width: 40%;
+    padding: 20px 0 100px 0;
+}
+.socialProject .quadrate h1 {
+    font-size: 36px;
+    margin-top: 30px;
+    color: #515050;
+}
+.socialProject .quadrate p {
+    font-size: 20px;
+    padding: 30px 0;
+}
+.ourProcess {
+    padding: 100px 0;
+    background-color: #474545;
+}
+.ourProcess .title {
+    padding-left: 250px;
+}
+.ourProcess .title h2 {
+    font-size: 48px;
+    color: #ffffff;
+    padding: 10px 0;
+}
+.ourProcess .title h1 {
+    font-size: 65px;
+    color: #ffffff;
+}
+.ourProcess .boxes {
+    display: flex;
+    justify-content: center;
+}
+.ourProcess .boxes .box {
+    width: 34%;
+    margin: 100px 0 0 0;
+}
+.ourProcess .boxes .box .imgText {
+    display: flex;
+    align-items: flex-start;
+    width: 75%;
+}
+.ourProcess .boxes .box .imgText p {
+    color: white;
+    font-size: 24px;
+    letter-spacing: 4px;
+    border-bottom: 0.5px dashed #fff;
+    margin: 20px 0 20px 20px;
+    transition: all .7s ease;
+}
+.ourProcess .boxes .box .hiddenText {
+    opacity: 0;
+    transition: all .7s ease;
+}
+.ourProcess .boxes .box:hover .hiddenText {
+    opacity: 1;
+    transition: all .7s ease;
+}
+.ourProcess .boxes .box .hiddenText p {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    letter-spacing: normal;
+    /*	text-align: center;*/
+}
+.ourBlog .content h1 {
+    margin-left: 250px;
+    font-size: 60px;
+    color: rgb(81, 80, 80);
+}
+.ourBlog .content hr {
+    width: 100px;
+    background-color: #ff7802;
+    height: 3px;
+    border: none;
+    margin-left: 250px;
+}
+.ourBlog .content .boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ourBlog .content .boxes .boxOne {
+    width: 45%;
+    margin: 20px;
+    background: url(https://api.hebron-academy.com/itacademyhebron/api/media/post/images/IMG_5785.JPG);
+    background-size: cover;
+}
+.ourBlog .content .boxes .boxTwo {
+    width: 45%;
+    margin: 20px;
+    background: url(https://api.hebron-academy.com/itacademyhebron/api/media/post/images/Hebron_it_camp.png);
+    background-size: cover;
+}
+.ourBlog .content .boxes .boxThree {
+    width: 45%;
+    margin: 20px;
+    background: url(https://api.hebron-academy.com/itacademyhebron/api/media/post/images/o.jpg);
+    background-size: cover;
+}
+.ourBlog .content .boxes .boxFourth {
+    width: 45%;
+    margin: 20px;
+    background: url(https://api.hebron-academy.com/itacademyhebron/api/media/post/images/HEBRON0022_9A8agqM.jpg);
+    background-size: cover;
+}
+.ourBlog .content .boxes div {
+    background-size: cover;
+    text-align: center;
+}
+.ourBlog .content .boxes div .text {
+    opacity: 0;
+    transition: all .7s ease;
+}
+.ourBlog .content .boxes div:hover .text {
+    opacity: 1;
+    transition: all .7s ease;
+    background-color: rgba(0,0,0,0.75);
+}
+.ourBlog .content .boxes div .text .textOne {
+    font-size: 20px;
+    padding-top: 40px;
+    color: #ff7802;
+}
+.ourBlog .content .boxes div .text .textTwo {
+    font-size: 45px;
+    padding: 140px 0;
+    color: white;
+}
+.ourBlog .content .boxes div .text .textThree {
+    font-size: 15px;
+    padding-bottom: 40px;
+    color: #ff7802;
+}
+.ourBlog .content #view {
+    text-align: center;
+    padding: 200px 0;
+}
+.ourBlog .content #view button {
+    width: 20%;
+    background: #ff7802;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -1px 4px 15px 4px grey;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.partner .content {
+    position: relative;
+    height: 100%;
+}
+.partner .content h1 {
+    font-size: 60px;
+    color: rgb(81, 80, 80);
+}
+.partner .content hr {
+    width: 100px;
+    background-color: #ff7802;
+    height: 3px;
+    border: none;
+    margin-left: 0;
+}
+.partner .content .owl-nav button {
+    border: none;
+    background: transparent;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}

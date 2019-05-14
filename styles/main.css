@@ -1,0 +1,416 @@
+*.*:before.*:after{
+	box-sizing: border-box;
+}
+*{
+	outline: none;
+}
+html{
+	font-size: 18px;
+}
+body{
+    margin:0;
+    overflow-x: hidden;
+    position:relative;
+}
+input {
+    padding: 10px;
+    margin-bottom: 25px;
+}
+input[placeholder] {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #ffffff;
+}
+.container{
+	margin: 0 auto;
+	width:80%;
+}
+h1, h2, h3, h4, h5, h6, ul ,li, a {
+    margin:  0;
+    padding: 0;
+}
+
+p {
+    margin: 0px 0;
+}
+button {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+h4 {
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+textarea {
+    resize: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ff7802;
+    border-radius: 3px;
+}
+
+.left-explain h2{
+      color: #5c5b5b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 50px;
+    margin-bottom: 0;  
+}
+.left-explain h2 span{
+  font-size: 48px;
+  letter-spacing: 1.2px;
+  color: #ff7802;
+  font-family: Raleway;
+}
+.left-explain p{
+ color: #5c5b5b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+}
+.left-explain p span{
+  font-family: Raleway;
+  font-size: 24px;
+  color: #ff7802;
+}
+.explaining-about-hebron{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.orange-circle{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 170px;
+ height: 170px;
+ border-radius: 50%;
+ background-color: #fc8e00;
+ position: relative;
+ margin-right: 30px;  
+}
+.photos-in-second-section{
+    position: absolute;
+}
+.left-explain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.left-explain h2{
+    margin:60px 0px;
+}
+
+.right-photo-with-text{
+    display: flex;
+}
+.right-photo-with-text{
+   margin:100px 30px;
+}
+.near-second-section-photos h2{
+   padding: 10px 0px;
+       font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.6px;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+.near-second-section-photos p{
+      color: #5c5b5b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+.third-section{
+  background: url('../assets/images/two-programists.png') no-repeat center / cover;
+  height: 600px;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third-section .help-in-mission {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.about-us .help-in-mission-after {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.help-in-mission-after h2{
+    text-align: center;
+    padding: 25px 0;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    position: relative;
+    font-family: Raleway;
+    font-size: 36px;
+   font-weight: 600;
+   line-height: 1.28;
+   letter-spacing: 0.9px;
+   color: #ffffff;
+}
+.help-in-mission-after p{
+  font-family: Raleway;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  text-align: center;
+ color: #ffffff;
+  padding: 50px 0px;
+}
+.get-involved{
+    display: flex;
+    justify-content: center;
+}
+.get-involved button{
+    width: 200px;
+    height: 50px;
+    width: 200px; 
+    border-radius: 4px;
+    background-color: #ff7802;
+    position: absolute;
+    padding: 10px 16px;
+    border: 1px solid #ff7802;
+    color:white;
+    border-radius: 2px;
+    font: 0.8rem 'HammersmithOne Regular', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.get-involved button a{
+    
+    color: #fefbfb;
+    font-family: "Raleway - Semi Bold";
+    font-size: 18px;
+}
+.help-in-mission-after h2::after{
+    position: absolute;
+    content: '';
+    width: 150px;
+    background:#ff7802; 
+    border: 1px solid #ff7802;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.help-in-mission-after h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+}
+.help-in-mission-after p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+        color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+        font-family: 'Raleway', sans-serif;
+}
+#blocks-8{
+    width: 760px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  height: 80px;
+  max-height: 300px;
+  padding: 20px;
+  box-shadow: 0px 4px 9.5px 0.5px rgba(1, 1, 1, 0.27);
+   background-color: #ffffff;
+  margin:40px 0px;
+}
+.mission-questions{
+       margin-left: 200px;
+    flex-direction: column;
+}
+#blocks-8 h2{
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 0.97;
+    letter-spacing: 0.8px;
+    color: #5c5b5b;
+    padding: 0px 20px;
+    position: relative;
+    color: #5c5b5b;
+    font-size: 30px;
+    font-weight: 400;
+}
+summary{
+    display: flex;
+    align-items: center;
+    color:#ff7802;
+    padding: 0 0 0 15px;
+}
+summary::-webkit-details-marker{
+    width: 20px;
+    height: 20px;
+    
+}
+details p{
+        color: #5c5b5b;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 0 0 15px;
+}
+#blocks-8 hr{
+       border: none;
+    width: 1px;
+    text-align: center;
+    height: 120px;
+    margin-top: 0;
+    background: #ff7802;
+    /* margin-left: 20px; */
+    position: absolute;
+}
+.mission-questions-text h2{
+color: #5c5b5b;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+}
+.fourth-section{
+     padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission-questions-text{
+    padding-bottom: 40px;
+}
+.mission-questions-text h2{
+    position: relative;
+}
+.mission-questions-text h2::after{
+     content: "";
+    position: absolute;
+    width: 10%;
+    border-bottom: 3px solid #ff7802;
+    bottom: -10px;
+    left: 5px;
+}
+.five-section{
+    background: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-between;
+}
+.mapa{
+    width:50%;
+}
+.left-form {
+display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 40%;
+}
+.left-form form{
+    width:60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.three-inputs input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: rgb(37, 37, 37);
+    font-size: 20px;
+    color: #fff;
+    width: 95%;
+    margin-top: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+.left-form h2{
+    padding:30px 15px;
+     font-family: Raleway;
+    font-size: 36px;
+    line-height: 0.52;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+} 
+.text-after-inputs textarea{
+    height: 80px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    width: 95%;
+    cursor: pointer;
+    padding: 10px;
+}
+.Send button{
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background: #ff7802;
+    padding: 15px 50px;
+    font-size: 18px;
+    color: rgb(252, 252, 252);
+    margin-top: 36px;
+}
+
+
+
+..photos-in-second-section img:hover{
+    animation: rubberBand 2s ease;
+}
+
+@-webkit-keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+@media only screen and (max-width:700px) {
+  .explaining-about-hebron{flex-direction: column;width:40%;}
+   .mission-questions{margin:0;padding:0;}
+}

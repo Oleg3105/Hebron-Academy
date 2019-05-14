@@ -1,0 +1,27 @@
+@media (max-width: 1176px) {
+    .four-section {
+        flex-wrap: wrap;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .second-content, .eight-content, .nine-content, .ten-content,
+    .third-content, .five-content, .four-content, .six-input {
+        flex-wrap: wrap;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .five-slider img {
+        width: 95%;
+    }
+
+    .eight-text p, .eight-text2 p, .ten-text pre {
+        text-align: center;
+    }
+
+    footer p, .four-text-content p {
+        font-size: 20px;
+    }
+}

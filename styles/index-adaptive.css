@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1320px) {
+    header .title {
+        margin-top: 250px;
+    }
+    header nav {
+        display: block;
+        height: 0;
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+    header nav .menu {
+        justify-content: center;
+    }
+    .socialProject .quadrate {
+        width: 55%;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .ourProcess .boxes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ourProcess .boxes .box {
+        width: 50%;
+        margin: 0;
+    }
+    .ourProcess .title {
+        padding-left: 100px;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 970px) {
+    .socialProject .quadrate {
+        width: 63%;
+    }
+}
+@media only screen and (max-width: 867px) {
+    header .title h1 {
+        margin-top: 200px;
+        font-size: 50px;
+    }
+    header nav .menu ul {
+        display: flex;
+        justify-content: center;
+    }
+    header .menu {
+        display: block;
+
+    }
+    header .menu .other {
+        display: block;
+        padding: 10px 0;
+    }
+    .socialProject .quadrate {
+        width: 70%;
+    }
+    .ourProcess .title h1 {
+        font-size: 50px;
+    }
+    .ourProcess .title h2 {
+        font-size: 37px;
+    }
+    .ourProcess .boxes {
+        display: block;
+    }
+    .ourProcess .boxes .box {
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 760px) {
+    header .title {
+        margin-top: 200px;
+    }
+    header .title h1 {
+        font-size: 40px;
+    }
+    .socialProject .quadrate {
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 480px) {
+
+}

@@ -1,0 +1,320 @@
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+*{
+	outline: none;
+}
+html{
+	font-size: 18px;
+}
+body{
+    margin:0;
+    overflow-x: hidden;
+    position:relative;
+}
+input {
+    padding: 10px;
+    margin-bottom: 25px;
+}
+input[placeholder] {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #ffffff;
+}
+.container{
+	margin: 0 auto;
+	width:80%;
+}
+h1, h2, h3, h4, h5, h6, ul ,li, a {
+    margin:  0;
+    padding: 0;
+}
+
+p {
+    margin: 0px 0;
+}
+button {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+h4 {
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+textarea {
+    resize: none;
+}
+.first-section{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orange-cubes-with-text{
+    display: flex;
+    align-items: center;
+}
+.orange-cubes{
+    margin-right: 30px;
+}
+.changing-lives h1{
+        color: #5c5b5b;
+    font-family: "Raleway - Semi Bold";
+    font-size: 60px;
+    font-weight: 400;
+    font-size: 48px;
+}
+.hebron-hope{
+    width: 100%;
+    margin:0px 30px;
+}
+.hebron-hope-for-future{
+    display: flex;
+    
+}
+.dear-students{
+    padding: 30px 0px;
+}
+.photo-with-proccess img{
+    width: 500px;
+    height: 300px;
+}
+.photo-with-proccess{
+    display: flex;
+    align-items: center;
+}
+.students-recieve{
+    margin-right: 60px;
+}
+.students-recieve h2{
+    color: #5c5b5b;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: 85%;
+}
+.students-recieve p{
+    color: #5c5b5b;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: 85%;
+}
+.second-section{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images-14 img{
+   width: 500px;height: 550px;  
+   object-fit: cover;
+   position: relative;
+  box-shadow: 0px 11px 16.9px 1.1px rgba(1, 1, 1, 0.21);
+  display: inline-block;
+}
+.many-photos.images-14 {
+   position: relative;
+}
+.many-photos.images-14 img{
+    max-width: 100%;
+    transition: all ease 2s;
+}
+
+.many-photos.onhover{
+    position: absolute;
+}
+
+
+.images-width{
+    width:100%;
+    margin: 0px 20px;
+}
+.images-grid{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap:200px;
+}
+.dear-students h2{
+        color: #5c5b5b;
+    font-family: "Raleway - Semi Bold";
+    font-size: 60px;
+    font-weight: 400;
+    position: relative;
+}
+.dear-students h2::after{
+        content: "";
+    position: absolute;
+    width: 7%;
+    border-bottom: 2px solid #ff7802;
+    bottom: 0px;
+    left: 0px;
+}
+.one-social-media{
+    display: flex;
+    justify-content: center;
+}
+.two-social-media{
+    display: flex;
+    justify-content: center;
+
+}
+.one-social-media img{
+    padding:15px 10px;
+}
+.two-social-media img{
+    padding:15px 10px;
+    transition: 0.3s all;
+}
+.many-photos{
+    padding-bottom: 30px;
+
+}
+
+.student-recieve{
+    margin-right: 30px;
+}
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left:-100%;
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left:-200%;
+    }
+    75%{
+        left:-300%;
+    }
+    95%{
+        left:-400%;
+    }
+    100%{
+        left:-400%;
+    }
+}
+#slider{
+    overflow: hidden;
+}
+#slider figure img{
+   
+    width: 100px;height: 100px;
+}
+#slider figure{
+    position: relative;
+    width: 100%;
+    left:0;
+    margin:0;
+    display: flex;
+    align-items: center;
+    
+}
+#slider {position: relative; overflow: hidden;  height: 320px;  list-style: none;}
+.slide {position: absolute; width: 100%; height: 100%; transition: all 1s ease-in 0.3s;display: flex;align-items: center;justify-content: center; }
+.slide img {height: 300px }
+.arrows {position: relative; margin: 0 auto; width: 600px;}
+.arrow {position: absolute; cursor: pointer;}
+.no_active {color: red;}
+.next {right: 0;}
+
+.third-section{
+    padding-bottom:  30px;
+}
+/*@media only screen and (max-width: 700px) {*/
+/*  !* For tablets: *!*/
+/*  .second-section{width: 50%};*/
+/*  .students-recieve h2{font-size: 10px};*/
+/*}*/
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+.two-social-media img:hover{
+    animation: rubberBand 2s ease;
+}
+.one-social-media img:hover{
+    animation: rubberBand 2s ease;
+}
+
+@-webkit-keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+  }
+}
